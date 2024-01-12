@@ -5,7 +5,7 @@ on:
     tags:
       - "v*.*"
 env:
-  IMAGE_NAME: MCDRJDK17 #这是您的镜像名
+  IMAGE_NAME: mcdr_jdk17 #这是您的镜像名
 jobs:
   get-tags:
     runs-on: ubuntu-latest
